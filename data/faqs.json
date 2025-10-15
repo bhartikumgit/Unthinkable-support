@@ -1,0 +1,154 @@
+{
+  "categories": {
+    "Account": {
+      "icon": "user-circle",
+      "suboptions": {
+        "Reset Password": {
+          "question": "How do I reset my password?",
+          "answer": "To reset your password: 1) Click 'Forgot Password' on the login page, 2) Enter your email address, 3) Click the reset link in your email, 4) Create a new password. For security, the reset link expires in 24 hours.",
+          "confidence_threshold": 0.8
+        },
+        "Update Email": {
+          "question": "How can I change my email address?",
+          "answer": "To update your email: 1) Go to Account Settings, 2) Click 'Edit' next to your email, 3) Enter and verify your new email address. You'll need to confirm the change via a verification link sent to both old and new email addresses.",
+          "confidence_threshold": 0.8
+        },
+        "Delete Account": {
+          "question": "How do I delete my account?",
+          "answer": "Account deletion requires review by our team. Please contact support with your account details and reason for deletion. Note that this action is permanent and cannot be undone.",
+          "confidence_threshold": 0.9
+        },
+        "Two-Factor Authentication": {
+          "question": "How do I set up two-factor authentication?",
+          "answer": "Enable 2FA in Account Settings > Security. We support authenticator apps and SMS verification. Download an authenticator app, scan the QR code, and save your backup codes in a safe place.",
+          "confidence_threshold": 0.8
+        },
+        "Account Security": {
+          "question": "What should I do if I notice suspicious activity on my account?",
+          "answer": "Immediately: 1) Change your password, 2) Enable 2FA if not already active, 3) Review recent orders and payments, 4) Contact our security team at security@unthinkable.com",
+          "confidence_threshold": 0.9
+        }
+      }
+    },
+    "Orders": {
+      "icon": "shopping-bag",
+      "suboptions": {
+        "Track Order": {
+          "question": "How can I track my order?",
+          "answer": "Track your order by: 1) Going to Orders in your account, 2) Finding your order number, 3) Clicking 'Track Package'. You'll see real-time updates and estimated delivery date.",
+          "confidence_threshold": 0.8
+        },
+        "Cancel Order": {
+          "question": "Can I cancel my order?",
+          "answer": "Orders can be cancelled within 1 hour of placement if not yet shipped. Go to Orders > Find your order > Click 'Cancel Order'. If the cancel button isn't visible, the order has progressed too far for cancellation.",
+          "confidence_threshold": 0.85
+        },
+        "Missing Items": {
+          "question": "What if my order is missing items?",
+          "answer": "For missing items: 1) Check the packing slip, 2) Go to Orders > Report Problem, 3) Select 'Missing Items', 4) List the missing items. We'll investigate and resolve within 24-48 hours.",
+          "confidence_threshold": 0.85
+        },
+        "Order Status": {
+          "question": "What do the different order statuses mean?",
+          "answer": "Order statuses: 'Processing' = confirmed but not shipped, 'Shipped' = in transit, 'Out for Delivery' = arriving today, 'Delivered' = completed, 'Cancelled' = order cancelled, 'On Hold' = requires attention.",
+          "confidence_threshold": 0.8
+        },
+        "Bulk Orders": {
+          "question": "How do I place a bulk order?",
+          "answer": "For bulk orders (10+ units): 1) Add items to cart, 2) Click 'Convert to Bulk Order', 3) Fill out the bulk order form. Our team will review and provide a custom quote within 24 hours.",
+          "confidence_threshold": 0.85
+        }
+      }
+    },
+    "Returns": {
+      "icon": "arrow-uturn-left",
+      "suboptions": {
+        "Return Policy": {
+          "question": "What is your return policy?",
+          "answer": "Most items can be returned within 30 days of delivery. Items must be unused and in original packaging. Some categories (electronics, perishables) may have different policies. Check the product page for specific return eligibility.",
+          "confidence_threshold": 0.8
+        },
+        "Start Return": {
+          "question": "How do I start a return?",
+          "answer": "To start a return: 1) Go to Orders, 2) Select the order, 3) Click 'Return Items', 4) Choose items and reason, 5) Print return label if provided. Some items may require photos or additional information.",
+          "confidence_threshold": 0.85
+        },
+        "Return Status": {
+          "question": "How can I check my return status?",
+          "answer": "Check return status in Orders > Returns. Statuses include: 'Return Requested', 'Label Created', 'In Transit', 'Received', 'Inspected', 'Refund Processed'. Allow 2-3 business days for inspection after receipt.",
+          "confidence_threshold": 0.8
+        },
+        "Refund Timeline": {
+          "question": "When will I get my refund?",
+          "answer": "Refunds are processed 1-2 business days after return inspection. Credit card refunds take 3-5 business days to appear. Store credit is instant. Original shipping charges are refunded only for defective items.",
+          "confidence_threshold": 0.85
+        },
+        "Wrong Item": {
+          "question": "I received the wrong item, what should I do?",
+          "answer": "For wrong items: 1) Take a photo, 2) Go to Orders > Report Problem, 3) Select 'Wrong Item Received', 4) Upload photo and description. We'll provide a return label and ship the correct item within 1-2 business days.",
+          "confidence_threshold": 0.9
+        }
+      }
+    },
+    "Payments": {
+      "icon": "credit-card",
+      "suboptions": {
+        "Payment Methods": {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept: Credit/Debit cards (Visa, MasterCard, Amex), PayPal, Apple Pay, Google Pay, and Store Credit. For security, we don't accept cryptocurrency or direct bank transfers at this time.",
+          "confidence_threshold": 0.8
+        },
+        "Failed Payment": {
+          "question": "What should I do if my payment fails?",
+          "answer": "For failed payments: 1) Verify card details and expiration, 2) Check available balance, 3) Try a different payment method, 4) Contact your bank if issues persist. Your cart will be saved for 24 hours.",
+          "confidence_threshold": 0.85
+        },
+        "Add Payment Method": {
+          "question": "How do I add a new payment method?",
+          "answer": "Add payment methods in Account > Payment Methods > Add New. For cards, enter the number, expiration, and CVV. We use industry-standard encryption and never store full card numbers.",
+          "confidence_threshold": 0.8
+        },
+        "Remove Payment": {
+          "question": "How do I remove a payment method?",
+          "answer": "To remove a payment method: 1) Go to Account > Payment Methods, 2) Find the payment method, 3) Click 'Remove', 4) Confirm deletion. Note: you cannot remove a payment method used for active subscriptions.",
+          "confidence_threshold": 0.85
+        },
+        "Payment Security": {
+          "question": "How do you protect my payment information?",
+          "answer": "We use bank-level encryption and are PCI-DSS compliant. Your card data is tokenized and stored with our secure payment processor. We never see or store complete card numbers.",
+          "confidence_threshold": 0.9
+        }
+      }
+    },
+    "Technical": {
+      "icon": "computer-desktop",
+      "suboptions": {
+        "Browser Issues": {
+          "question": "The website isn't working properly in my browser",
+          "answer": "Try these steps: 1) Clear browser cache and cookies, 2) Update your browser to the latest version, 3) Try incognito/private mode, 4) Disable extensions temporarily. We support the latest versions of Chrome, Firefox, Safari, and Edge.",
+          "confidence_threshold": 0.8
+        },
+        "Mobile App": {
+          "question": "How do I troubleshoot the mobile app?",
+          "answer": "For app issues: 1) Force stop the app, 2) Clear app cache, 3) Update to latest version, 4) Check device storage space, 5) Reinstall if needed. If problems persist, please provide your device model and OS version.",
+          "confidence_threshold": 0.85
+        },
+        "Login Problems": {
+          "question": "I can't log in to my account",
+          "answer": "Try these solutions: 1) Reset password, 2) Clear browser cache, 3) Check caps lock, 4) Verify email address, 5) Try a different browser. If using SSO, ensure you're using the correct corporate email.",
+          "confidence_threshold": 0.8
+        },
+        "Website Speed": {
+          "question": "The website is loading slowly",
+          "answer": "Improve loading speed: 1) Clear browser cache, 2) Check your internet connection, 3) Close unnecessary tabs, 4) Try a different browser. If issues persist, please run a speed test and provide your location.",
+          "confidence_threshold": 0.8
+        },
+        "Error Messages": {
+          "question": "What do common error messages mean?",
+          "answer": "Common errors: 404 = page not found, 500 = server error, 403 = access denied, 'Session Expired' = need to log in again. Include the exact error message when contacting support for faster resolution.",
+          "confidence_threshold": 0.85
+        }
+      }
+    }
+  }
+}
